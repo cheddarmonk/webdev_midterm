@@ -1,0 +1,158 @@
+﻿/*
+
+	01. Font Face
+	02. Generals Settings
+			
+*/
+/* 01. FONT FACE ================================================== */
+@font-face
+{
+  font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 200;
+    src: local("Source Sans Pro ExtraLight"), local("SourceSansPro-ExtraLight"), url("http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGEzfSP8PFPIaW8d4wHl9LSw.woff") format("woff");
+}
+@font-face
+{
+  font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url("http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/ODelI1aHBYDBqgeIAH2zlDLXPPWpYIJRcQ99gLLWTOQ.woff") format("woff");
+}
+@font-face
+{
+  font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url("http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGNF2eBBnhZOFf_rblGEjGiI.woff") format("woff");
+}
+@font-face
+{
+  font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url("http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGBgDywzySrQSFSEUM6OqW_g.woff") format("woff");
+}
+/* 02. GENERALS SETTINGS ================================================== */
+body, html {
+	background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color: #282828;
+	background-size: 16px 16px;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #74bee1;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	-webkit-transition: opacity 400ms;
+	-moz-transition: opacity 400ms;
+	transition: opacity 400ms;
+}
+h1 {
+	font-size: 46px;
+	font-weight: 100;
+	text-transform: none;
+	line-height: 46px;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: auto;
+	margin: auto;
+}
+h3 {
+	font: 38px 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	width: auto;
+	margin: auto;
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+	outline: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+a:hover {
+	color: steelblue;
+	text-transform:uppercase;
+}
+.pagelink1:hover {
+	filter: blur(2px);
+}
+.pagelink2:hover {
+	filter: blur(2px);
+}
+.pagelink3:hover {
+	filter: blur(2px);
+}
+
+.pagelink{
+	width:100%;
+	text-align:center;
+	position:relative	
+}
+
+.pagelink1{
+	height:100px;	
+	display:inline-block;
+	
+}
+.pagelink2{
+	
+	height:100px;
+	display:inline-block;
+	
+}
+.pagelink3{
+	
+	height:100px;
+	display:inline-block;
+	
+}
+
+
+table, th, td {
+	border: .75px solid black;
+	border-collapse: collapse;
+	font-size: large;
+	width: 40%;
+	margin: auto;
+	padding: 10px;
+}
+tr:nth-child(odd) {
+	background-color:#bcbab3 
+}
+tr:nth-child(even) {
+	background-color:#dbdad6
+}
+
+th{
+	color:black
+}
+.rounded {
+	height: 200px;
+	width: 150px;
+	border: 3px:silver;
+	border-radius: 95px;
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+.heading {
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	border-width:10px;
+	border-color:silver;
+	border-bottom-style:solid;
+	padding-bottom:2px
+	
+	
+}
